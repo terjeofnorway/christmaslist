@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  storage:
+    image: mongo
+    container_name: christmaslistdb
+    env_file: ./env/christmaslistdb.env
